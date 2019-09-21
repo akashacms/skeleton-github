@@ -1,5 +1,5 @@
 # skeleton-github
-Skeleton [AkashaCMS]((https://akashacms.com)) site for deployment to Github Pages - https://akashacms.github.io/skeleton-github/index.html
+Skeleton [AkashaCMS](https://akashacms.com) site for deployment to Github Pages - https://akashacms.github.io/skeleton-github/index.html
 
 The repository is built as so:
 
