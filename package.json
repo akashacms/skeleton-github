@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "David Herron",
+    "email": "david@davidherron.com",
+    "url": "http://davidherron.com"
+  },
+  "name": "skeleton-github",
+  "description": "AkashaCMS skeleton website for posting to Github",
+  "version": "0.7.6",
+  "main": "config.js",
+  "scripts": {
+    "prebuild": "rm -rf docs/* && mkdir -p docs && akasharender copy-assets config.js",
+    "build": "akasharender render config.js",
+    "preview": "cd docs && ws --log.format dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akashacms/skeleton-github.git"
+  },
+  "dependencies": {
+    "akashacms-base": "akashacms/akashacms-base",
+    "akashacms-blog-podcast": "^0.7.6",
+    "akashacms-booknav": "akashacms/akashacms-booknav",
+    "akashacms-breadcrumbs": "akashacms/akashacms-breadcrumbs",
+    "akashacms-embeddables": "akashacms/akashacms-embeddables",
+    "akashacms-theme-bootstrap": "akashacms/akashacms-theme-bootstrap",
+    "akasharender": "^0.7.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.0",
+    "async": ">=2.0.0-rc.4",
+    "globfs": "*",
+    "oembed": "^0.1.0",
+    "html-minifier": "^3.1.1",
+    "local-web-server": "^3.0.7"
+  }
+}
