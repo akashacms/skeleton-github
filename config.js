@@ -70,6 +70,8 @@ config.setMahabhutaConfig({
     recognizeCDATA: true
 });
 
+// config.addMahabhuta(require('./mahafuncs'));
+
 config.prepare();
 
 module.exports = config;
