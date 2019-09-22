@@ -9,8 +9,6 @@ This is an (AkashaCMS sample website)[https://akashacms.com] that demonstrates d
 
 The README in the repository has instructions on regenerating and deploying this site.
 
-
-
 <div id="blog-1-news">
     <div class="well well-sm"><h2>Blog #1</h2></div>
     <blog-news-river maxentries="20" blogtag="news" template="blog-river-thumbs.html.ejs"></blog-news-river>
