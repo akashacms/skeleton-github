@@ -27,7 +27,7 @@ config
 config.rootURL("https://akashacms.github.io/skeleton-github/");
 
 config
-    .use(require('akashacms-theme-bootstrap'))
+    .use(require('@akashacms/theme-bootstrap'))
     .use(require('akashacms-base'), {
         generateSitemapFlag: true
     })

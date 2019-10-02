@@ -24,7 +24,7 @@
     "akashacms-booknav": "^0.7.2",
     "akashacms-breadcrumbs": "^0.7.1",
     "akashacms-embeddables": "akashacms/akashacms-embeddables",
-    "akashacms-theme-bootstrap": "akashacms/akashacms-theme-bootstrap",
+    "@akashacms/theme-bootstrap": "^0.7.x",
     "akasharender": "^0.7.6",
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.0",
