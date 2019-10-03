@@ -19,7 +19,7 @@
     "url": "git://github.com/akashacms/skeleton-github.git"
   },
   "dependencies": {
-    "akashacms-base": "^0.7.5",
+    "@akashacms/plugins-base": "^0.7.x",
     "akashacms-blog-podcast": "^0.7.7",
     "akashacms-booknav": "^0.7.2",
     "akashacms-breadcrumbs": "^0.7.1",
