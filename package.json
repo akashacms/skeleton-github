@@ -21,8 +21,8 @@
   "dependencies": {
     "@akashacms/plugins-base": "^0.7.x",
     "akashacms-blog-podcast": "^0.7.7",
-    "akashacms-booknav": "^0.7.2",
-    "akashacms-breadcrumbs": "^0.7.1",
+    "akashacms-booknav": "^0.7.x",
+    "@akashacms/plugins-breadcrumbs": "^0.7.x",
     "akashacms-embeddables": "akashacms/akashacms-embeddables",
     "@akashacms/theme-bootstrap": "^0.7.x",
     "akasharender": "^0.7.6",
