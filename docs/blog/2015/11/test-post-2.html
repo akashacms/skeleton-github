@@ -51,11 +51,11 @@
 
 <div class="row">
   <section id="breadcrumb" class="col-sm-12">
-    <div id="breadcrumbTrail">
+    <nav aria-label="breadcrumb" id="breadcrumbTrail">
     <ol class="breadcrumb">
-     <li> <a href="../../../index.html">Example of an AkashaCMS website deployed to Github</a> </li> <li> <a href="../../index.html">Blog index</a> </li> <li> <a href="../index.html">Blog index for 2015</a> </li> <li> <a href="index.html">Blog index for November, 2015</a> </li> <li> <a href="test-post-2.html">Test Post 2</a> </li>
+     <li class="breadcrumb-item "> <a href="../../../index.html">Example of an AkashaCMS website deployed to Github</a> </li> <li class="breadcrumb-item "> <a href="../../index.html">Blog index</a> </li> <li class="breadcrumb-item "> <a href="../index.html">Blog index for 2015</a> </li> <li class="breadcrumb-item "> <a href="index.html">Blog index for November, 2015</a> </li> <li class="breadcrumb-item "> <a href="test-post-2.html">Test Post 2</a> </li>
     </ol>
-</div>
+</nav>
 
   </section>
 </div>
@@ -71,9 +71,11 @@
     <p><strong>This is a blog teaser</strong></p> 
     <p>Blog content</p>
 
-    <div class="blog-prev-next-wrapper">
-    <a class="blog-prev-link" style="padding: 15px;" href="../09/test-post-1.html"><span style="float: left">&#xAB;&#xAB;&#xAB;&#xAB;&#xAB;&#xAB; Test Post 1</span></a>
-    <a class="blog-next-link" style="padding: 15px;" href="test-post-1.html"><span style="float: right">Test Post 1 &#xBB;&#xBB;&#xBB;&#xBB;&#xBB;&#xBB;</span></a>
+    <div class="btn-group blog-prev-next-wrapper" role="group" aria-label="Next/Previous">
+    <a class="btn btn-outline-primary blog-prev-link" href="../09/test-post-1.html" role="button">
+    &#xAB;&#xAB;&#xAB;&#xAB;&#xAB;&#xAB; Test Post 1</a>
+    <a class="btn btn-outline-primary blog-next-link" href="test-post-1.html" role="button">
+    <span style="float: right">Test Post 1 &#xBB;&#xBB;&#xBB;&#xBB;&#xBB;&#xBB;</span></a>
 </div>
     <div id="disqus_thread"></div>
 <script type="text/javascript">
