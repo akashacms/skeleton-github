@@ -23,7 +23,7 @@
     "akashacms-blog-podcast": "^0.7.7",
     "@akashacms/plugins-booknav": "^0.7.x",
     "@akashacms/plugins-breadcrumbs": "^0.7.x",
-    "@akashacms/plugins-embeddables": "akashacms/akashacms-embeddables",
+    "@akashacms/plugins-embeddables": "^0.7.x",
     "@akashacms/theme-bootstrap": "^0.7.x",
     "akasharender": "^0.7.6",
     "bootstrap": "^3.3.7",
