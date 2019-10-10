@@ -34,7 +34,7 @@ config
     .use(require('@akashacms/plugins-breadcrumbs'))
     .use(require('@akashacms/plugins-booknav'))
     .use(require('@akashacms/plugins-embeddables'))
-    .use(require('akashacms-blog-podcast'), {
+    .use(require('@akashacms/plugins-blog-podcast'), {
         bloglist: {
             news: {
                 rss: {
